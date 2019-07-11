@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
-    <title>Gridea</title>
-    <updated>2019-07-11T14:09:33.813Z</updated>
+    <title>Henrys&apos;</title>
+    <updated>2019-07-11T14:22:52.182Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io//atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>合抱之木 生于毫末
+九层之台 起于垒土 
+千里之行 始于足下
+锲而舍之 朽木不折 
+锲而不舍 金石可镂</subtitle>
     <logo>http://henryalps.github.io//images/avatar.png</logo>
     <icon>http://henryalps.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <rights>All rights reserved 2019, Henrys&apos;</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>http://henryalps.github.io//post/hello-gridea</id>
