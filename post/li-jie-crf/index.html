@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea | Henrys&#39;</title>
+<title>理解CRF | Henrys&#39;</title>
 <meta name="description" content="合抱之木 生于毫末
 九层之台 起于垒土 
 千里之行 始于足下
@@ -11,13 +11,19 @@
 锲而不舍 金石可镂">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://henryalps.github.io//favicon.ico?v=1562854809667">
+<link rel="shortcut icon" href="http://henryalps.github.io//favicon.ico?v=1562855857336">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://henryalps.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
@@ -27,6 +33,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="http://henryalps.github.io/">Henrys&#39;</a></h3>
@@ -83,45 +90,41 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="current-tag">标签: Gridea</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="http://henryalps.github.io//post/hello-gridea">Hello Gridea</a>
-    </h2>
-    <p class="article-meta">
-      2018-12-12
-      
-        <a href="http://henryalps.github.io//tag/gridea" class="badge ">
-          Gridea
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+          <article class="article">
+            <h1>理解CRF</h1>
+            <p class="article-meta">
+              2019-07-11
+              
+            </p>
+            
+            <div class="post-content">
+              <p>CRF在实体识别里边也是一个绕不过去的话题了，网上的文章读着总不尽兴，我也来试图诠释一下。</p>
+<!--more-->
+<h3 id="为什么需要crf">为什么需要CRF？</h3>
+<p>因为CRF能够保证标签之间的有序性，比如Begin标签一定在End标签之前。</p>
+<h3 id="那为什么用hmm不可以呢">那为什么用HMM不可以呢?</h3>
+<p>因为HMM的马尔科夫性，它只能建立隐状态之间，以及隐状态到观测之间的关系。这让它的能力受到限制。</p>
 
-    </p>
-    <div class="row">
-      <a href="http://henryalps.github.io//post/hello-gridea" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
+            </div>
+          </article>
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="http://henryalps.github.io//images/avatar.png?v=1562854809667" class="no-responsive avatar">
+    <img src="http://henryalps.github.io//images/avatar.png?v=1562855857336" class="no-responsive avatar">
     <div class="text-muted">合抱之木 生于毫末
 九层之台 起于垒土 
 千里之行 始于足下
@@ -150,7 +153,7 @@
         
           
             <li>
-              <a href="http://henryalps.github.io//post/hello-gridea">Hello Gridea</a>
+              <a href="http://henryalps.github.io//post/li-jie-crf">理解CRF</a>
             </li>
           
         
@@ -163,16 +166,13 @@
     </div>
     <div class="row">
       
-        <a href="http://henryalps.github.io//tag/gridea" class="badge warning">
-          Gridea
-        </a>
-      
     </div>
   </div>
   <div class="paper">
     Made with ♥ by Henry | <a class="rss" href="http://henryalps.github.io//atom.xml" target="_blank">RSS</a>
   </div>
 </div>
+
 
     </div>
 
@@ -185,6 +185,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c9fde4278fcad8498a63',
+        clientSecret: 'f3de143b306db9f32b4748f3cc003f6ac1a60f56',
+        repo: 'henryalps.github.io',
+        owner: 'henryalps',
+        admin: ['henryalps'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
