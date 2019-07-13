@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2019-07-11T15:16:44.104Z</updated>
+    <updated>2019-07-13T01:29:57.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io//atom.xml"/>
@@ -14,6 +14,48 @@
     <logo>http://henryalps.github.io//images/avatar.png</logo>
     <icon>http://henryalps.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Henrys&apos;</rights>
+    <entry>
+        <title type="html"><![CDATA[游园]]></title>
+        <id>http://henryalps.github.io//post/you-yuan</id>
+        <link href="http://henryalps.github.io//post/you-yuan">
+        </link>
+        <updated>2019-07-13T00:26:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>春远夏长，早起将园一游。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>春远夏长，早起将园一游。</p>
+<!-- more --> 
+<h3 id="将园何处">将园何处</h3>
+<p>将府公园，是我最近才发现的一个景点，离家很近。之前太宅了，虽区区几百米，亦没有发现。</p>
+<h3 id="观景">观景</h3>
+<p>今日天光初现甚早，不得安眠，遂至将园，由北门入。虽只是卯时，北园已有很多游人。或蹲或立，亦步亦行。南北之间吃早餐后，又至南园。</p>
+<p><img src="http://henryalps.github.io//post-images/1562978424941.png" alt=""></p>
+<blockquote>
+<p>高尔夫球场旁的步道，公园占地极大。</p>
+</blockquote>
+<p><img src="http://henryalps.github.io//post-images/1562978526992.png" alt="">
+步道走完，便至一导览图。</p>
+<p><img src="http://henryalps.github.io//post-images/1562978632299.png" alt="">
+林间铁路，不知通向何方。</p>
+<p><img src="http://henryalps.github.io//post-images/1562978748304.png" alt="">
+连园桥上，将河东去。</p>
+<p><img src="http://henryalps.github.io//post-images/1562978880281.png" alt="">
+野鸭湖荷景。不知何故北园没有种莲花。</p>
+<h3 id="杂记">杂记</h3>
+<blockquote>
+<p>为什么树上要刷白漆，还要贴一个胶带？</p>
+</blockquote>
+<ul>
+<li>我的理解：
+1.贴胶带是为了整齐，方便控制刷漆的高度；
+2.刷漆，emm，可能是避免虫蛀？可能标记这些树是公园财产？或者显得不要那么原生态？</li>
+<li>Google说</li>
+</ul>
+<blockquote>
+<p>杀菌杀虫，防冻伤防日灼？方便晚间行路→→</p>
+</blockquote>
+<p>总结：太神奇了。。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea中Gittalk的配置问题]]></title>
         <id>http://henryalps.github.io//post/gridea-zhong-gittalk-de-pei-zhi-wen-ti</id>
