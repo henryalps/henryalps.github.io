@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2019-07-13T04:13:16.894Z</updated>
+    <updated>2019-07-13T05:29:44.360Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io//atom.xml"/>
@@ -14,6 +14,32 @@
     <logo>http://henryalps.github.io//images/avatar.png</logo>
     <icon>http://henryalps.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Henrys&apos;</rights>
+    <entry>
+        <title type="html"><![CDATA[Playground]]></title>
+        <id>http://henryalps.github.io//post/playground</id>
+        <link href="http://henryalps.github.io//post/playground">
+        </link>
+        <updated>2019-07-13T05:15:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>收集日常闲逛站点。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>收集日常闲逛站点。</p>
+<!-- more -->
+<h3 id="必逛">必逛</h3>
+<p>🎈YC/HackNews
+<a href="https://news.ycombinator.com/">链接</a> 最新的科技政治新闻</p>
+<p>🎆V2EX
+<a href="v2ex.com">链接</a> 国内程序员圈子一瞥</p>
+<p>🎇NGA.CN
+<a href="nga.cn">链接</a> 网事杂谈，经常爆些神贴</p>
+<p>🧨jandan.net
+<a href="jandan.net">链接</a> 陪我十年了，小破站耗掉太多时间</p>
+<p>✨Medium
+<a href="medium.com">链接</a> 高品质且易懂的算法文章</p>
+<h3 id="心水">心水</h3>
+<p>🎉36氪
+<a href="36kr.com">链接</a> 前沿内容不少</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[招商银行 香港一卡通 额度恢复]]></title>
         <id>http://henryalps.github.io//post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu</id>
