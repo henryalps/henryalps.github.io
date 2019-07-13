@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2019-07-13T01:49:54.548Z</updated>
+    <updated>2019-07-13T03:19:06.708Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io//atom.xml"/>
@@ -14,6 +14,29 @@
     <logo>http://henryalps.github.io//images/avatar.png</logo>
     <icon>http://henryalps.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Henrys&apos;</rights>
+    <entry>
+        <title type="html"><![CDATA[招商银行 香港一卡通 额度恢复]]></title>
+        <id>http://henryalps.github.io//post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu</id>
+        <link href="http://henryalps.github.io//post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu">
+        </link>
+        <updated>2019-07-13T02:26:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>收到一条短信：</p>
+<blockquote>
+<p>您的香港一卡通长期未有网银转账，现限额被调整为零，内地一卡通不受影响，您可于一个月内通过网银恢复限额，如疑请询客服热线。2019-06-30[招商银行]</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<p>收到一条短信：</p>
+<blockquote>
+<p>您的香港一卡通长期未有网银转账，现限额被调整为零，内地一卡通不受影响，您可于一个月内通过网银恢复限额，如疑请询客服热线。2019-06-30[招商银行]</p>
+</blockquote>
+<!--more-->
+<p>恢复方法
+<strong>注意：一定要先更新到最新版本！！！否则最后一步会报错！！！</strong></p>
+<p>1.打开 招商银行个人银行<strong>香港</strong>专业版；</p>
+<p>2.一卡通 标签下，选择 其他功能；</p>
+<p>3.选择 限额管理，复原，下一步，输入 短信验证码，完成；</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[游园]]></title>
         <id>http://henryalps.github.io//post/you-yuan</id>
