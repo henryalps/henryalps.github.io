@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>算法 | Henrys&#39;</title>
+<title>书单 | Henrys&#39;</title>
 <meta name="description" content="合抱之木 生于毫末
 九层之台 起于垒土 
 千里之行 始于足下
@@ -19,6 +19,12 @@
 <link rel="stylesheet" href="http://henryalps.github.io//styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -27,6 +33,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="http://henryalps.github.io/">Henrys&#39;</a></h3>
@@ -83,41 +90,41 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="current-tag">标签: 算法</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="http://henryalps.github.io//post/li-jie-crf">理解CRF</a>
-    </h2>
-    <p class="article-meta">
-      2019-07-11
-      
-        <a href="http://henryalps.github.io//tag/u-FPxkNpt" class="badge secondary">
-          算法
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <p>CRF在实体识别里边也是一个绕不过去的话题了，网上的文章读着总不尽兴，我也来试图诠释一下。</p>
-
-    </p>
-    <div class="row">
-      <a href="http://henryalps.github.io//post/li-jie-crf" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
+          <article class="article">
+            <h1>书单</h1>
+            <p class="article-meta">
+              2019-07-14
+              
+                <a href="http://henryalps.github.io//tag/d2nN5PQjX" class="badge ">
+                  隐身
+                </a>
+              
+                <a href="http://henryalps.github.io//tag/Se68-Y8WS" class="badge warning">
+                  收集
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <p>我正在看的书。以评论的形式更新。</p>
+ <!-- more --> 
+            </div>
+          </article>
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="http://henryalps.github.io//images/avatar.png?v=1563113353002" class="no-responsive avatar">
@@ -186,11 +193,11 @@
     </div>
     <div class="row">
       
-        <a href="http://henryalps.github.io//tag/EJP23pN8M" class="badge secondary">
+        <a href="http://henryalps.github.io//tag/EJP23pN8M" class="badge warning">
           转载
         </a>
       
-        <a href="http://henryalps.github.io//tag/VWg7o3JvY" class="badge warning">
+        <a href="http://henryalps.github.io//tag/VWg7o3JvY" class="badge success">
           生活
         </a>
       
@@ -198,7 +205,7 @@
           解决方案
         </a>
       
-        <a href="http://henryalps.github.io//tag/u-FPxkNpt" class="badge secondary">
+        <a href="http://henryalps.github.io//tag/u-FPxkNpt" class="badge success">
           算法
         </a>
       
@@ -208,6 +215,7 @@
     Made with ♥ by Henry | <a class="rss" href="http://henryalps.github.io//atom.xml" target="_blank">RSS</a>
   </div>
 </div>
+
 
     </div>
 
@@ -220,6 +228,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c9fde4278fcad8498a63',
+        clientSecret: 'f3de143b306db9f32b4748f3cc003f6ac1a60f56',
+        repo: 'henryalps.github.io',
+        owner: 'henryalps',
+        admin: ['henryalps'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
