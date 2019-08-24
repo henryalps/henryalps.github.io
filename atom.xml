@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2019-07-14T14:09:16.753Z</updated>
+    <updated>2019-08-24T12:25:39.005Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io//atom.xml"/>
@@ -14,6 +14,18 @@
     <logo>http://henryalps.github.io//images/avatar.png</logo>
     <icon>http://henryalps.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Henrys&apos;</rights>
+    <entry>
+        <title type="html"><![CDATA[人类群星闪耀时]]></title>
+        <id>http://henryalps.github.io//post/ren-lei-qun-xing-shan-yao-shi</id>
+        <link href="http://henryalps.github.io//post/ren-lei-qun-xing-shan-yao-shi">
+        </link>
+        <updated>2019-07-15T14:13:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>ML&amp;DL领域名人堂。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>ML&amp;DL领域名人堂。</p>
+<!-- more --> 
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[编程的智慧·读后感]]></title>
         <id>http://henryalps.github.io//post/bian-cheng-de-zhi-hui-du-hou-gan</id>
