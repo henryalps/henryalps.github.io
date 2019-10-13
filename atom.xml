@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2019-10-09T15:01:04.146Z</updated>
+    <updated>2019-10-13T01:55:23.910Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io//atom.xml"/>
@@ -665,7 +665,7 @@ System.out.println(&quot;found: &quot; + found.get());<br>
 <p>先把眼前的问题解决掉，解决好，再考虑将来的扩展问题。<br>
 先写出可用的代码，反复推敲，再考虑是否需要重用的问题。<br>
 先写出可用，简单，明显没有bug的代码，再考虑测试的问题。<br>
-创造这样的精品文章需要很多的精力和咖啡 ;) 如果你喜欢这篇文章，请付款支持。建议金额$5美元或者30人民币。付款方式请参考<a href="http://www.yinwang.org/blog-cn/2016/04/13/pay-blog">这里</a>。</p>
+创造这样的精品文章需要很多的精力和咖啡 😉 如果你喜欢这篇文章，请付款支持。建议金额$5美元或者30人民币。付款方式请参考<a href="http://www.yinwang.org/blog-cn/2016/04/13/pay-blog">这里</a>。</p>
 </blockquote>
 <h3 id="读后感">读后感</h3>
 <p>过度工程这个坑，已经踩过很多次了，一定要尽量避免。</p>
@@ -708,7 +708,7 @@ System.out.println(&quot;found: &quot; + found.get());<br>
 <p>将府公园，是我最近才发现的一个景点，离家很近。之前太宅了，虽区区几百米，亦没有发现。</p>
 <h3 id="观景">观景</h3>
 <p>今日天光初现甚早，不得安眠，遂至将园，由北门入。虽只是卯时，北园已有很多游人。或蹲或立，亦步亦行。南北之间吃早餐后，又至南园。</p>
-<p><img src="http://henryalps.github.io//post-images/1562978424941.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="http://henryalps.github.io//post-images/1562978424941.png" alt=""></figure>
 <blockquote>
 <p>高尔夫球场旁的步道，公园占地极大。</p>
 </blockquote>
