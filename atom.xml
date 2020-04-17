@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2020-04-17T08:23:20.540Z</updated>
+    <updated>2020-04-17T08:30:08.745Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
-    <link rel="self" href="http://henryalps.github.io//atom.xml"/>
+    <link rel="self" href="http://henryalps.github.io/atom.xml"/>
     <subtitle>我说来不及，你就不做了吗？</subtitle>
-    <logo>http://henryalps.github.io//images/avatar.png</logo>
-    <icon>http://henryalps.github.io//favicon.ico</icon>
+    <logo>http://henryalps.github.io/images/avatar.png</logo>
+    <icon>http://henryalps.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Henrys&apos;</rights>
     <entry>
         <title type="html"><![CDATA[探索式学习]]></title>
-        <id>http://henryalps.github.io//post/tan-suo-shi-xue-xi</id>
-        <link href="http://henryalps.github.io//post/tan-suo-shi-xue-xi">
+        <id>http://henryalps.github.io/post/tan-suo-shi-xue-xi/</id>
+        <link href="http://henryalps.github.io/post/tan-suo-shi-xue-xi/">
         </link>
         <updated>2019-10-08T14:09:32.000Z</updated>
         <content type="html"><![CDATA[<p>本文翻译自<a href="http://notepad.michaelpershan.com/discovery-learning-vs-not-discovery-learning/">MP的博客</a>.</p>
@@ -73,8 +73,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[李光耀看中国与世界·读后感]]></title>
-        <id>http://henryalps.github.io//post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan</id>
-        <link href="http://henryalps.github.io//post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan">
+        <id>http://henryalps.github.io/post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan/</id>
+        <link href="http://henryalps.github.io/post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan/">
         </link>
         <updated>2019-08-25T07:36:10.000Z</updated>
         <summary type="html"><![CDATA[<p>Singapore国父李光耀是我所景仰的人杰。之前读过《李光耀传》，最近又看了《李光耀看中国与世界》，此为读后感记录。</p>
@@ -85,8 +85,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[人类群星闪耀时]]></title>
-        <id>http://henryalps.github.io//post/ren-lei-qun-xing-shan-yao-shi</id>
-        <link href="http://henryalps.github.io//post/ren-lei-qun-xing-shan-yao-shi">
+        <id>http://henryalps.github.io/post/ren-lei-qun-xing-shan-yao-shi/</id>
+        <link href="http://henryalps.github.io/post/ren-lei-qun-xing-shan-yao-shi/">
         </link>
         <updated>2019-07-15T14:13:50.000Z</updated>
         <summary type="html"><![CDATA[<p>ML&amp;DL领域名人堂。</p>
@@ -97,8 +97,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[编程的智慧·读后感]]></title>
-        <id>http://henryalps.github.io//post/bian-cheng-de-zhi-hui-du-hou-gan</id>
-        <link href="http://henryalps.github.io//post/bian-cheng-de-zhi-hui-du-hou-gan">
+        <id>http://henryalps.github.io/post/bian-cheng-de-zhi-hui-du-hou-gan/</id>
+        <link href="http://henryalps.github.io/post/bian-cheng-de-zhi-hui-du-hou-gan/">
         </link>
         <updated>2019-07-14T13:52:36.000Z</updated>
         <summary type="html"><![CDATA[<p>本文系转载自<a href="https://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy">原作者博客</a>，感谢。</p>
@@ -669,8 +669,8 @@ System.out.println(&quot;found: &quot; + found.get());<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[招商银行 香港一卡通 额度恢复]]></title>
-        <id>http://henryalps.github.io//post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu</id>
-        <link href="http://henryalps.github.io//post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu">
+        <id>http://henryalps.github.io/post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu/</id>
+        <link href="http://henryalps.github.io/post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu/">
         </link>
         <updated>2019-07-13T02:26:34.000Z</updated>
         <summary type="html"><![CDATA[<p>收到一条短信：</p>
@@ -692,8 +692,8 @@ System.out.println(&quot;found: &quot; + found.get());<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[游园]]></title>
-        <id>http://henryalps.github.io//post/you-yuan</id>
-        <link href="http://henryalps.github.io//post/you-yuan">
+        <id>http://henryalps.github.io/post/you-yuan/</id>
+        <link href="http://henryalps.github.io/post/you-yuan/">
         </link>
         <updated>2019-07-13T00:26:06.000Z</updated>
         <summary type="html"><![CDATA[<p>春远夏长，早起将园一游。</p>
@@ -704,17 +704,17 @@ System.out.println(&quot;found: &quot; + found.get());<br>
 <p>将府公园，是我最近才发现的一个景点，离家很近。之前太宅了，虽区区几百米，亦没有发现。</p>
 <h3 id="观景">观景</h3>
 <p>今日天光初现甚早，不得安眠，遂至将园，由北门入。虽只是卯时，北园已有很多游人。或蹲或立，亦步亦行。南北之间吃早餐后，又至南园。</p>
-<figure data-type="image" tabindex="1"><img src="http://henryalps.github.io//post-images/1562978424941.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="http://henryalps.github.io//post-images/1562978424941.png" alt="" loading="lazy"></figure>
 <blockquote>
 <p>高尔夫球场旁的步道，公园占地极大。</p>
 </blockquote>
-<p><img src="http://henryalps.github.io//post-images/1562978526992.png" alt=""><br>
+<p><img src="http://henryalps.github.io//post-images/1562978526992.png" alt="" loading="lazy"><br>
 步道走完，便至一导览图。</p>
-<p><img src="http://henryalps.github.io//post-images/1562978632299.png" alt=""><br>
+<p><img src="http://henryalps.github.io//post-images/1562978632299.png" alt="" loading="lazy"><br>
 林间铁路，不知通向何方。</p>
-<p><img src="http://henryalps.github.io//post-images/1562982588068.png" alt=""><br>
+<p><img src="http://henryalps.github.io//post-images/1562982588068.png" alt="" loading="lazy"><br>
 连园桥上，将河东去。</p>
-<p><img src="http://henryalps.github.io//post-images/1562978880281.png" alt=""><br>
+<p><img src="http://henryalps.github.io//post-images/1562978880281.png" alt="" loading="lazy"><br>
 野鸭湖荷景。不知何故北园没有种莲花。</p>
 <h3 id="杂记">杂记</h3>
 <blockquote>
@@ -734,18 +734,18 @@ System.out.println(&quot;found: &quot; + found.get());<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea中Gittalk的配置问题]]></title>
-        <id>http://henryalps.github.io//post/gridea-zhong-gittalk-de-pei-zhi-wen-ti</id>
-        <link href="http://henryalps.github.io//post/gridea-zhong-gittalk-de-pei-zhi-wen-ti">
+        <id>http://henryalps.github.io/post/gridea-zhong-gittalk-de-pei-zhi-wen-ti/</id>
+        <link href="http://henryalps.github.io/post/gridea-zhong-gittalk-de-pei-zhi-wen-ti/">
         </link>
         <updated>2019-07-11T14:42:20.000Z</updated>
         <content type="html"><![CDATA[<p>Gridea中配置完Gittalk发布到github后，每篇新文章下会有一个新issue的按钮：<br>
-<img src="http://henryalps.github.io//post-images/1562856545431.png" alt=""></p>
+<img src="http://henryalps.github.io//post-images/1562856545431.png" alt="" loading="lazy"></p>
 <p>根据文档，点完这个按钮之后应该会自动新建一个issue，大家就可以在下面评论了。</p>
 <p>但我遇到问题是，点完之后一直跳转到首页。检查跳转URL发现其中包含一个error:</p>
 <pre><code>The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application...
 </code></pre>
 <p>搜索这个error可以发现是因为Github OAuth Application回调连接设置不对所致。因此我们到<a href="https://github.com/settings/applications/">OAuth</a>页面改正回调链接。像我就是漏掉了https中的s导致的：<br>
-<img src="http://henryalps.github.io//post-images/1562856825112.png" alt=""></p>
+<img src="http://henryalps.github.io//post-images/1562856825112.png" alt="" loading="lazy"></p>
 <blockquote>
 <p>小贴士：OAuth Apps是什么？<br>
 Github开放了大量Api，开发者可以自己根据这些Api来编写Github App。所谓Github App自然是一个和Github功能一样的第三方App。OAuth Apps在Github App的基础上加入鉴权机制，使得用户可以用自己的账户去进行一些需要权限的操作，比如评论。</p>
@@ -754,8 +754,8 @@ Github开放了大量Api，开发者可以自己根据这些Api来编写Github A
     </entry>
     <entry>
         <title type="html"><![CDATA[理解CRF]]></title>
-        <id>http://henryalps.github.io//post/li-jie-crf</id>
-        <link href="http://henryalps.github.io//post/li-jie-crf">
+        <id>http://henryalps.github.io/post/li-jie-crf/</id>
+        <link href="http://henryalps.github.io/post/li-jie-crf/">
         </link>
         <updated>2019-07-11T14:29:47.000Z</updated>
         <summary type="html"><![CDATA[<p>CRF在实体识别里边也是一个绕不过去的话题了，网上的文章读着总不尽兴，我也来试图诠释一下。</p>
@@ -770,8 +770,8 @@ Github开放了大量Api，开发者可以自己根据这些Api来编写Github A
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://henryalps.github.io//post/hello-gridea</id>
-        <link href="http://henryalps.github.io//post/hello-gridea">
+        <id>http://henryalps.github.io/post/hello-gridea/</id>
+        <link href="http://henryalps.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
