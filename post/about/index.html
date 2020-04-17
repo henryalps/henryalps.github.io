@@ -1,16 +1,18 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>关于 | Henrys&#39;</title>
 <meta name="description" content="我说来不及，你就不做了吗？">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://henryalps.github.io//favicon.ico?v=1587112035190">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="shortcut icon" href="http://henryalps.github.io//favicon.ico?v=1587120383516">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://henryalps.github.io//styles/main.css">
 
@@ -21,84 +23,86 @@
 
   
 
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://henryalps.github.io/">Henrys&#39;</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://henryalps.github.io/">
+        <img class="avatar" src="http://henryalps.github.io//images/avatar.png?v=1587120383516" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://henryalps.github.io/">
+        <h1 class="site-title">Henrys&#39;</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
     </div>
   </div>
-</nav>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>关于</h1>
-            <p class="article-meta">
-              2019-01-25
-              
-                <a href="http://henryalps.github.io/tag/d2nN5PQjX/" class="badge secondary">
-                  隐身
-                </a>
-              
-            </p>
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-01-25</span>
             
-            <div class="post-content">
-              <h2 id="小破站-和我">小破站 和我…</h2>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="http://henryalps.github.io/tag/d2nN5PQjX/">
+                    隐身
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <h2 id="小破站-和我">小破站 和我…</h2>
 <p>一天夜里，突然发现离奔三不远了，打开6年前开的旧博客，二十岁的时光有点天真，又有些遗失已久的热情……</p>
 <p>然而性格决定我不懂也不会克制与积累，每天肆意挥霍着自己的身体，时间随头发一同远去，博客的最后更新时间也停留在5年前……</p>
 <p>中年的人总会偶然有点伤感，心底觉得自己是个孩子，外表却日益崩坏沉沦。伤感的人决定要重新来过，于是小破站重生了。</p>
@@ -108,168 +112,50 @@
 CDN：CloudFare计划中<br>
 Statistics：Google计划中</p>
 
-            </div>
-          </article>
+          </div>
         </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
 
-          
         
       </div>
 
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://henryalps.github.io//images/avatar.png?v=1587112035190" class="no-responsive avatar">
-    <div class="text-muted">我说来不及，你就不做了吗？</div>
-    <div class="social-container">
       
         
-      
+          <div id="gitalk-container"></div>
+        
+
         
       
-        
+
+      <div class="site-footer">
+  <div class="slogan">我说来不及，你就不做了吗？</div>
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-    </div>
+    
+      
+    
+      
+    
   </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/tan-suo-shi-xue-xi/">探索式学习</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/mu-men-ye-he-ji/">木门野鹤集</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/guan-dian-shou-ji-lu/">现代摘抄录</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan/">李光耀看中国与世界·读后感</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/ren-lei-qun-xing-shan-yao-shi/">人类群星闪耀时</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/ke-neng-shi-zui-quan-de-mai-fang-zhi-shi-zheng-li/">(可能是)最全的买房知识整理</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/bian-cheng-de-zhi-hui-du-hou-gan/">编程的智慧·读后感</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/playground/">Playground</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/san-guan-shou-ji-lu/">三观收集录</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://henryalps.github.io/post/zhao-shang-yin-xing-xiang-gang-yi-qia-tong-e-du-hui-fu/">招商银行 香港一卡通 额度恢复</a>
-            </li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="http://henryalps.github.io/tag/Se68-Y8WS/" class="badge secondary">
-          收集
-        </a>
-      
-        <a href="http://henryalps.github.io/tag/EJP23pN8M/" class="badge secondary">
-          转载
-        </a>
-      
-        <a href="http://henryalps.github.io/tag/VWg7o3JvY/" class="badge secondary">
-          生活
-        </a>
-      
-        <a href="http://henryalps.github.io/tag/JXid4SUBv/" class="badge ">
-          解决方案
-        </a>
-      
-        <a href="http://henryalps.github.io/tag/u-FPxkNpt/" class="badge success">
-          算法
-        </a>
-      
-        <a href="http://henryalps.github.io/tag/dfQXLdGqo/" class="badge warning">
-          Gridea
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Made with ♥ by Henry | <a class="rss" href="http://henryalps.github.io//atom.xml" target="_blank">RSS</a>
-  </div>
+  Made with ♥ by Henry | <a class="rss" href="http://henryalps.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
 
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
