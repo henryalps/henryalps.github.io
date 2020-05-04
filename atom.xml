@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2020-05-04T02:52:51.035Z</updated>
+    <updated>2020-05-04T01:08:47.230Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io/atom.xml"/>
@@ -41,6 +41,9 @@
 修改⑤ - 在<code>_config.yml</code>中修改<code>social_links</code>字段</p>
 <h3 id="总结">总结</h3>
 <p>FastPages博客的配置和更新方式都和维护一般Git项目类似，对NoteBook的支持应该会催生一批数据科学家用户。</p>
+<blockquote>
+<p>PS:这篇文章同步发表于<a href="https://henryalps.github.io/demo/markdown/2020/05/04/fast-pages.html">FastPages</a></p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
