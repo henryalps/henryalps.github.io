@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2020-04-17T11:17:56.278Z</updated>
+    <updated>2020-05-04T02:52:51.035Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>http://henryalps.github.io/images/avatar.png</logo>
     <icon>http://henryalps.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Henrys&apos;</rights>
+    <entry>
+        <title type="html"><![CDATA[强推使用FastPages搭建博客]]></title>
+        <id>http://henryalps.github.io/post/qiang-tui-shi-yong-fastpages-da-jian-bo-ke/</id>
+        <link href="http://henryalps.github.io/post/qiang-tui-shi-yong-fastpages-da-jian-bo-ke/">
+        </link>
+        <updated>2020-05-03T12:33:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/demo/">我的FastPages博客</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/demo/">我的FastPages博客</a></p>
+<!-- more -->
+<h3 id="什么是fastpages">什么是FastPages</h3>
+<p>FASTAI出品的一个易用的博客框架，尤其突出的特性是对JupyterNoteBook的支持。</p>
+<h3 id="如何安装fastpages">如何安装FastPages</h3>
+<p>非常简单。<br>
+（1）通过<a href="https://github.com/fastai/fastpages/generate">这个链接</a>生成一份fork；<br>
+（2）GitHub会在约30s后为你的fork开一个Pull Request；<br>
+（3）进入Pull Request，按要求首先创建一对  RSA 密钥对。你可以在本地用<code>ssh-key-gen</code>命令创建；<br>
+（4）配置RSA密钥对。注意private key命名必须是SSH_DEPLOY_KEY，不然后边部署时会报错；<br>
+（5）Merge这个Pull Request，30s后就可以见到你的博客了；<br>
+（5）如果Merge过程中出现错误，可以到Actions页面里边点击重试：<br>
+<img src="http://henryalps.github.io//post-images/1588559865420.png" alt="" loading="lazy"></p>
+<h3 id="如何配置fastpages">如何配置FastPages</h3>
+<p>FastPages安装完成后，初始页面看起来是这个样子的：<br>
+<img src="http://henryalps.github.io//post-images/1588560104227.png" alt="" loading="lazy"><br>
+修改① - 在<code>_config.yml</code>中修改<code>title</code>字段<br>
+修改② - 在<code>_pages</code>中修改<code>about.md</code><br>
+修改③ - 在根目录下修改<code>index.html</code><br>
+修改④ - 在<code>_config.yml</code>中修改<code>description</code>字段<br>
+修改⑤ - 在<code>_config.yml</code>中修改<code>social_links</code>字段</p>
+<h3 id="总结">总结</h3>
+<p>FastPages博客的配置和更新方式都和维护一般Git项目类似，对NoteBook的支持应该会催生一批数据科学家用户。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[探索式学习]]></title>
         <id>http://henryalps.github.io/post/tan-suo-shi-xue-xi/</id>

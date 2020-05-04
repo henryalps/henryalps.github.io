@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>Gridea中Gittalk的配置问题 | Henrys&#39;</title>
+<title>强推使用FastPages搭建博客 | Henrys&#39;</title>
 <meta name="description" content="我说来不及，你就不做了吗？">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -86,43 +86,44 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">Gridea中Gittalk的配置问题</h2>
+          <h2 class="post-title">强推使用FastPages搭建博客</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-07-11</span>
-            
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="http://henryalps.github.io/tag/JXid4SUBv/">
-                    解决方案
-                    
-                  </a>
-                
-              </span>
+            <span><i class="icon-calendar-outline"></i> 2020-05-03</span>
             
           </div>
           <div class="post-content">
-            <p>Gridea中配置完Gittalk发布到github后，每篇新文章下会有一个新issue的按钮：<br>
-<img src="http://henryalps.github.io//post-images/1562856545431.png" alt="" loading="lazy"></p>
-<p>根据文档，点完这个按钮之后应该会自动新建一个issue，大家就可以在下面评论了。</p>
-<p>但我遇到问题是，点完之后一直跳转到首页。检查跳转URL发现其中包含一个error:</p>
-<pre><code>The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application...
-</code></pre>
-<p>搜索这个error可以发现是因为Github OAuth Application回调连接设置不对所致。因此我们到<a href="https://github.com/settings/applications/">OAuth</a>页面改正回调链接。像我就是漏掉了https中的s导致的：<br>
-<img src="http://henryalps.github.io//post-images/1562856825112.png" alt="" loading="lazy"></p>
-<blockquote>
-<p>小贴士：OAuth Apps是什么？<br>
-Github开放了大量Api，开发者可以自己根据这些Api来编写Github App。所谓Github App自然是一个和Github功能一样的第三方App。OAuth Apps在Github App的基础上加入鉴权机制，使得用户可以用自己的账户去进行一些需要权限的操作，比如评论。</p>
-</blockquote>
+            <p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/demo/">我的FastPages博客</a></p>
+<!-- more -->
+<h3 id="什么是fastpages">什么是FastPages</h3>
+<p>FASTAI出品的一个易用的博客框架，尤其突出的特性是对JupyterNoteBook的支持。</p>
+<h3 id="如何安装fastpages">如何安装FastPages</h3>
+<p>非常简单。<br>
+（1）通过<a href="https://github.com/fastai/fastpages/generate">这个链接</a>生成一份fork；<br>
+（2）GitHub会在约30s后为你的fork开一个Pull Request；<br>
+（3）进入Pull Request，按要求首先创建一对  RSA 密钥对。你可以在本地用<code>ssh-key-gen</code>命令创建；<br>
+（4）配置RSA密钥对。注意private key命名必须是SSH_DEPLOY_KEY，不然后边部署时会报错；<br>
+（5）Merge这个Pull Request，30s后就可以见到你的博客了；<br>
+（5）如果Merge过程中出现错误，可以到Actions页面里边点击重试：<br>
+<img src="http://henryalps.github.io//post-images/1588559865420.png" alt="" loading="lazy"></p>
+<h3 id="如何配置fastpages">如何配置FastPages</h3>
+<p>FastPages安装完成后，初始页面看起来是这个样子的：<br>
+<img src="http://henryalps.github.io//post-images/1588560104227.png" alt="" loading="lazy"><br>
+修改① - 在<code>_config.yml</code>中修改<code>title</code>字段<br>
+修改② - 在<code>_pages</code>中修改<code>about.md</code><br>
+修改③ - 在根目录下修改<code>index.html</code><br>
+修改④ - 在<code>_config.yml</code>中修改<code>description</code>字段<br>
+修改⑤ - 在<code>_config.yml</code>中修改<code>social_links</code>字段</p>
+<h3 id="总结">总结</h3>
+<p>FastPages博客的配置和更新方式都和维护一般Git项目类似，对NoteBook的支持应该会催生一批数据科学家用户。</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="http://henryalps.github.io/post/li-jie-crf/">
+            <a class="purple-link" href="http://henryalps.github.io/post/tan-suo-shi-xue-xi/">
               <h3 class="post-title">
-                下一篇：理解CRF
+                下一篇：探索式学习
               </h3>
             </a>
           </div>
