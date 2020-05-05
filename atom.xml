@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2020-05-04T01:08:47.230Z</updated>
+    <updated>2020-05-05T15:38:08.842Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io/atom.xml"/>
@@ -108,27 +108,126 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[李光耀看中国与世界·读后感]]></title>
-        <id>http://henryalps.github.io/post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan/</id>
-        <link href="http://henryalps.github.io/post/li-guang-yao-kan-zhong-guo-yu-shi-jie-du-hou-gan/">
+        <title type="html"><![CDATA[现代摘抄录]]></title>
+        <id>http://henryalps.github.io/post/guan-dian-shou-ji-lu/</id>
+        <link href="http://henryalps.github.io/post/guan-dian-shou-ji-lu/">
         </link>
-        <updated>2019-08-25T07:36:10.000Z</updated>
-        <summary type="html"><![CDATA[<p>Singapore国父李光耀是我所景仰的人杰。之前读过《李光耀传》，最近又看了《李光耀看中国与世界》，此为读后感记录。</p>
+        <updated>2019-10-02T12:21:30.000Z</updated>
+        <summary type="html"><![CDATA[<p>看到很多很有趣的观点，不记下来的话，就会很快消散。所谓现代，乃是用数字方式，做一个摘抄本的功能。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>Singapore国父李光耀是我所景仰的人杰。之前读过《李光耀传》，最近又看了《李光耀看中国与世界》，此为读后感记录。</p>
-<!--more-->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人类群星闪耀时]]></title>
-        <id>http://henryalps.github.io/post/ren-lei-qun-xing-shan-yao-shi/</id>
-        <link href="http://henryalps.github.io/post/ren-lei-qun-xing-shan-yao-shi/">
-        </link>
-        <updated>2019-07-15T14:13:50.000Z</updated>
-        <summary type="html"><![CDATA[<p>ML&amp;DL领域名人堂。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>ML&amp;DL领域名人堂。</p>
-<!-- more --> 
+        <content type="html"><![CDATA[<p>看到很多很有趣的观点，不记下来的话，就会很快消散。所谓现代，乃是用数字方式，做一个摘抄本的功能。</p>
+<!-- more -->
+<h3 id="王垠的博客">王垠的博客</h3>
+<h4 id="机器与人类视觉差距系列">机器与人类视觉差距系列</h4>
+<blockquote>
+<p>简介</p>
+</blockquote>
+<p>在<a href="http://www.yinwang.org/blog-cn/2019/09/14/machine-vs-human">1</a>.<a href="http://www.yinwang.org/blog-cn/2019/09/15/machine-vs-human-2">2</a>与<a href="http://www.yinwang.org/blog-cn/2019/09/16/machine-vs-human-3">3</a>中，王垠探讨了机器视觉与人类视觉之间存在的差别。</p>
+<h4 id="智慧系列">智慧系列</h4>
+<blockquote>
+<p>简介</p>
+</blockquote>
+<p>在智慧系列中，介绍了王垠对生活、艺术和学习的思考。</p>
+<blockquote>
+<p>学习的智慧</p>
+</blockquote>
+<p>中心思想是以下几点：</p>
+<ul>
+<li>王垠有很多犯错误的经验，但当他根据经验指正别人时，别人不会听他的话；</li>
+<li>知识必须从实践中得来，而提出和思考问题也是同样的重要；</li>
+<li>获取知识的时候从多个角度进行对比，迷信教材不好，直接交流是很高效的；</li>
+<li>英文很重要（王垠的<a href="">文章</a>说明了学习英文语法的方法，中心思想是：句子的本质是函数和一组参数的组合，这个函数就是动词，<a href="">另一篇文章</a>中则认为标准英语口音不应该被过分推崇）。</li>
+</ul>
+<p>一句话点评：如果你不能自行解决一个问题，去和人讨论，或者从多个英文来源去获取相应资源。</p>
+<blockquote>
+<p>编程的智慧</p>
+</blockquote>
+<p>之前已经单独引用了一个全文。这里还是再概括一遍：</p>
+<ul>
+<li>代码需要重读与重构；</li>
+<li>代码需要功能单一、高内聚与低耦合；</li>
+<li>自注释；</li>
+<li>宁愿长，也要清晰；</li>
+<li>对错误的处理，需要很多的耐心和细心；</li>
+<li>目的导向，避免过度工程。</li>
+</ul>
+<blockquote>
+<p>生活的智慧</p>
+</blockquote>
+<p>中心思想是以下几点：</p>
+<ul>
+<li>整理事物时，使用最频繁的物品也放的最近；</li>
+<li>相同功能的物品，只留一件最好的；</li>
+<li>框子非常有用。</li>
+</ul>
+<p>总的来说，只要你保持一个理性，独立的态度，积极发现生活中的各种问题，并提出解决方案，你的生活也会非常棒。</p>
+<h3 id="3blue1brown系列">3Blue1Brown系列</h3>
+<h4 id="线性代数系列">线性代数系列</h4>
+<blockquote>
+<p>简介</p>
+</blockquote>
+<p>在这个系列中，作者以1D~3D中的图形为例，解释了线性代数中的各种基本概念。<br>
+大纲：</p>
+<ol>
+<li>向量是什么；</li>
+<li>空间与基；</li>
+<li>矩阵与线性变换；</li>
+<li>矩阵乘积；</li>
+<li>三维空间中的线性变换；</li>
+<li>行列式；</li>
+<li>逆矩阵、列空间、秩与零空间；</li>
+<li>非方阵；</li>
+<li>点积与对偶性；</li>
+<li>以线性变换的眼光看叉积；</li>
+<li>基变换；</li>
+<li>特征向量与特征值；</li>
+<li>抽象向量空间。</li>
+</ol>
+<h4 id="微积分系列">微积分系列</h4>
+<blockquote>
+<p>简介</p>
+</blockquote>
+<p>在这个系列中，作者以2D函数图形可视化形式，讲解了微积分中的一些基本概念。<br>
+大纲：</p>
+<ol>
+<li>微分法求圆的面积；</li>
+<li>车速与距离的例子诠释导数的意义；</li>
+<li>几何方法求导；</li>
+<li>链式法则与乘积法则的可视化；</li>
+<li>指数函数；</li>
+<li>隐函数求导；</li>
+<li>极限与洛必达法则；</li>
+<li>积分引入；</li>
+<li>面积与斜率之间的关联；</li>
+<li>泰勒级数；</li>
+<li>另一种“缩放”视角下的微积分。</li>
+</ol>
+<h4 id="深度学习系列">深度学习系列</h4>
+<blockquote>
+<p>简介</p>
+</blockquote>
+<p>在这个系列中，作者以可视化形式介绍了神经网络及反向传播算法。<br>
+大纲：</p>
+<ol>
+<li>如何识别手写数字-神经网络的原理与结构；</li>
+<li>反向传播算法原理解释；</li>
+<li>反向传播算法的符号表示。</li>
+</ol>
+<h3 id="jay-alammar系列">Jay Alammar系列</h3>
+<p>Jay Alammar是一名擅长可视化复杂算法的工程师，在这个系列中，他对seq2seq/BERT/GPT-2等算法进行了细致和可视化的讲解。</p>
+<p>因为以上算法都是和RNN有一定的关联，所以在了解以上算法之前，先回顾经典的<a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">对LSTM的形象讲解</a>是非常有必要的。</p>
+<h3 id="gilles-castel的笔记法">Gilles Castel的笔记法</h3>
+<p>Gilles Castel是勒芬大学数学系的学生，他能做到在数学课上同步用LaTex记笔记：</p>
+<ul>
+<li><a href="https://castel.dev/post/lecture-notes-1/">vim+LaTex记录笔记</a></li>
+<li><a href="https://castel.dev/post/lecture-notes-2/">使用Inkscape绘图的方法</a></li>
+</ul>
+<h3 id="sigai系列">SIGAI系列</h3>
+<p><a href="https://www.sigai.cn/">sigai</a>是清华大佬的创业项目，在<a href="http://www.tensorinfinity.com/">tensorinfinity</a>上提供了一系列高质课程。参考课程可建立机器学习&amp;深度学习的知识脉络。</p>
+<h3 id="小技巧系列">小技巧系列</h3>
+<p>无聊的时候，知乎搜索一些“技巧”：<br>
+1、以过程评判优劣，发掘成就感，消弥挫败感；<br>
+2、在做任何一件事情之前，请查阅尽可能多的相关资料、经典教材，做很多事情都是有好的模式和方法的，请不要忽略前人经验的巨大威力（survery+review当关键字查找论文综述）；</p>
 ]]></content>
     </entry>
     <entry>
