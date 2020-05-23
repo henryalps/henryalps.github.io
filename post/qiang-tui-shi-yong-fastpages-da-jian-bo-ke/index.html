@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://henryalps.github.io//favicon.ico?v=1588693143100">
+<link rel="shortcut icon" href="http://henryalps.github.io//favicon.ico?v=1590250391086">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://henryalps.github.io//styles/main.css">
 
@@ -36,7 +36,7 @@
   <div class="site-header">
     <div class="left">
       <a href="http://henryalps.github.io/">
-        <img class="avatar" src="http://henryalps.github.io//images/avatar.png?v=1588693143100" alt="" width="32px" height="32px">
+        <img class="avatar" src="http://henryalps.github.io//images/avatar.png?v=1590250391086" alt="" width="32px" height="32px">
       </a>
       <a href="http://henryalps.github.io/">
         <h1 class="site-title">Henrys&#39;</h1>
@@ -113,10 +113,22 @@
 修改③ - 在根目录下修改<code>index.html</code><br>
 修改④ - 在<code>_config.yml</code>中修改<code>description</code>字段<br>
 修改⑤ - 在<code>_config.yml</code>中修改<code>social_links</code>字段</p>
+<h3 id="问题">问题</h3>
+<p>(1)如果你遇到了类似这样的错误--</p>
+<pre><code>jekyll_1     |   Liquid Exception: Permission denied @ rb_sysopen - /data/.tweet-cache/ee341900d3bc668607abd8cba365fd1b.cache in /data/_posts/2020-01-14-test-markdown-post.md
+jekyll_1     | /usr/local/bundle/ruby/2.6.0/gems/jekyll-twitter-plugin-2.1.0/lib/jekyll-twitter-plugin.rb:41:in `initialize': Permission denied @ rb_sysopen - /data/.tweet-cache/ee341900d3bc668607abd8cba365fd1b.cache (Errno::EACCES)
+</code></pre>
+<p>请在目录下执行以下命令：</p>
+<pre><code>mkdir .jekyll-cache _site .tweet-cache &amp;&amp; touch .jekyll-metadata
+</code></pre>
+<p>如果仍有问题，则在<code>docker-compose.yml</code>中，jekyll -&gt; command节点下，加入以下语句：</p>
+<pre><code>chmod 777 * .tweet-cache
+</code></pre>
+<p>(2) 如果你发现笔记本中粘贴的图片无法展示 -- 请升级到最新版本的fastpages。</p>
 <h3 id="总结">总结</h3>
 <p>FastPages博客的配置和更新方式都和维护一般Git项目类似，对NoteBook的支持应该会催生一批数据科学家用户。</p>
 <blockquote>
-<p>PS:这篇文章同步发表于<a href="https://henryalps.github.io/demo/markdown/2020/05/04/fast-pages.html">FastPages</a></p>
+<p>PS:这篇文章同步发表于<a href="https://henryalps.github.io/fastpages/jupyter/2020/05/04/fastpages.html">FastPages</a></p>
 </blockquote>
 
           </div>
