@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://henryalps.github.io/</id>
     <title>Henrys&apos;</title>
-    <updated>2020-05-23T16:13:14.110Z</updated>
+    <updated>2020-05-30T17:03:33.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://henryalps.github.io/"/>
     <link rel="self" href="http://henryalps.github.io/atom.xml"/>
@@ -16,9 +16,9 @@
         <link href="http://henryalps.github.io/post/qiang-tui-shi-yong-fastpages-da-jian-bo-ke/">
         </link>
         <updated>2020-05-03T12:33:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/demo/">我的FastPages博客</a></p>
+        <summary type="html"><![CDATA[<p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/fastpages/">我的FastPages博客</a></p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/demo/">我的FastPages博客</a></p>
+        <content type="html"><![CDATA[<p>😘甚至比我的想象更加完美！FastPages的优势：同时支持使用Jupyter NoteBook/word/markdown写作博客！与GitHub Pages无缝融合！后面我将全线迁移到<a href="https://henryalps.github.io/fastpages/">我的FastPages博客</a></p>
 <!-- more -->
 <h3 id="什么是fastpages">什么是FastPages</h3>
 <p>FASTAI出品的一个易用的博客框架，尤其突出的特性是对JupyterNoteBook的支持。</p>
